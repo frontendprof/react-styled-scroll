@@ -10,7 +10,7 @@ import { Link as LinkS } from "react-router-dom";
 
 
 export const Nav = styled.nav`
-    background:#2c497f;
+    background:#0d0b11;
     height:80px;
     /* margin-top:-80px; */
     display:flex;
