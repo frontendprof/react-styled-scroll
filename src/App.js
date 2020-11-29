@@ -1,11 +1,6 @@
 import React from 'react';
-import Navbar from "./components/Navbar";
 import {BrowserRouter as Router} from "react-router-dom";
-
-
-
-import "./App.css";
-import Sidebar from './components/Sidebar';
+import Home from './pages';
 
 
 
@@ -14,8 +9,7 @@ import Sidebar from './components/Sidebar';
 function App() {
     return (
         <Router>
-            <Sidebar />
-            <Navbar />
+            <Home />
         </Router>
     )
 }

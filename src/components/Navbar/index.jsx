@@ -17,7 +17,7 @@ import { FaBars } from "react-icons/fa";
 
 
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
@@ -26,7 +26,7 @@ const Navbar = () => {
                         ABD-Shs
                 </NavLogo>
 
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
 

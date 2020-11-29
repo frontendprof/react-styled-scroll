@@ -12,11 +12,14 @@ export const SidebarContainer = styled.aside`
     z-index:999;
     width:100%;
     height:100%;
-    background:#0d0d0d;
+    background:#2c497f;
     display:flex;
     align-items:center;
+
+    justify-content:center;
+    text-align:center;
     
-    left:0;
+    right:0;
     transition:.3s ease-in-out;
     opacity:${({ isOpen }) => (isOpen ? "100%" : "0")};
     top:${({ isOpen }) => (isOpen ? "0" : "-100%")};
@@ -24,6 +27,7 @@ export const SidebarContainer = styled.aside`
 
 export const CloseIcon = styled(FaTimes)`
     color:#fff;
+    margin-top:5px;
 `;
 
 export const Icon = styled.div`
@@ -59,7 +63,7 @@ export const SidebarLink = styled(LinkS)`
     text-decoration:none;
     list-style:none;
     transition:.2s ease-in-out;
-    color:pink;
+    color:#fff;
     cursor:pointer;
 
     &:hover{
