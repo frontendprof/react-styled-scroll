@@ -12,7 +12,7 @@ import { Link as LinkS } from "react-router-dom";
 export const Nav = styled.nav`
     background:#0d0b11;
     height:80px;
-    /* margin-top:-80px; */
+    margin-top:-80px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -85,7 +85,7 @@ export const NavItem = styled.li`
 
 
 export const NavLinks = styled(LinkS)`
-    color:yellow;
+    color:#d90368;
     cursor:pointer;
     padding: 0 1rem;
     height:100%;
@@ -121,7 +121,8 @@ export const NavBtnLink = styled(LinkR)`
     text-decoration:none;
 
     &:hover{
-        background:#fff;
-        color:#010606;
+        background:#d90368;
+        color:#baff29;
     }
+        
 `

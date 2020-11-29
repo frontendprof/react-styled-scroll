@@ -12,11 +12,10 @@ import {
     ArrowForward,
     ArrowRight
 } from "./HeroElements";
+import { Button } from "../ButtonElements";
+
 //  Video by Pressmaster from Pexels
 import Video from "../../videos/video.mp4"
-
-// Video by Pressmaster from Pexels
-//import Video from "../../videos/video2.mp4"
 
 
 
@@ -39,11 +38,11 @@ const HeroSection = () => {
             </HeroBg>
 
             <HeroContent>
-                <HeroH1>Wes surely can save the planet, ONLY TOGETHER</HeroH1>
+                <HeroH1>We surely can save the planet, ONLY TOGETHER</HeroH1>
                 <HeroP>Support us by signing up a new account so you'd be posted about our upcoming activities</HeroP>
 
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
                         Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
