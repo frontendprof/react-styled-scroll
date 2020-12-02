@@ -34,8 +34,10 @@ const HeroSection = () => {
     return (
         <HeroContainer id="home">
             <HeroBg>
+
                 <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
             </HeroBg>
+            {/* <a href="https://www.freeconvert.com/video-compressor" target="_blank">Video Compressor</a> */}
 
             <HeroContent>
                 <HeroH1>We surely can save the planet, ONLY TOGETHER</HeroH1>

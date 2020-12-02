@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
     color:#fff;
-    background:${({ lightBg }) => lightBg ? "#f9f9f9" : "#13141C"};
+    background:${({ lightBg }) => lightBg ? "#e6e6e6" : "#13141C"};
 
     @media screen and (max-width:768px){
         padding:100px 0;
@@ -30,7 +30,7 @@ export const InfoRow = styled.div`
     grid-template-areas:${({ imgStart }) => imgStart ? `"col2 col1"` : `"col1 col2"`};
 
     @media screen and (max-width:768px){
-        grid-template-areas:${({ imgStart }) => imgStart ? `"col1 col2"` : `"col1 col1" "col2 col2"`};
+        grid-template-areas:${({ imgStart }) => imgStart ? `"col1" "col2"` : `"col1 col1" "col2 col2"`};
     }
 `
 
@@ -98,6 +98,7 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.div`
     width:100%;
+    height:90%;
     padding-right:0;
 `;
 
